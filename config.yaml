@@ -1,11 +1,15 @@
 
-http:
-  proxy:
-    host: 0.0.0.0
-    port: 39194
-    gin_mode: release
 
-  admin:
-    host: 0.0.0.0
-    port: 9192
-    gin_mode: release    
+proxy: 
+# 端口
+  host: 127.0.0.1
+  port: 39194
+  gin_mode: release
+
+admin:
+  host: 0.0.0.0
+  port: 9192
+  gin_mode: release    
+
+# redis: 192.168.1.1:6379
+# mysql: readonly:tYeiIO548G@tcp(192.168.1.2:3306)/admin
